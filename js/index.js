@@ -46,11 +46,39 @@
 //   customStyle.style.color = "white";
 // }
 
-const myParas = document.querySelectorAll(".paragraph-class");
+// const myParas = document.querySelectorAll(".paragraph-class");
 
-// console.log(myParas);
+// // console.log(myParas);
 
-for (let item of myParas) {
-  // console.log(item);
-  item.style.color = "red";
-}
+// for (let item of myParas) {
+//   // console.log(item);
+//   item.style.color = "red";
+// }
+
+// Node Vs Elements
+
+const nodeVsElements = document.querySelector(".container-two");
+
+// console.log(nodeVsElements.children);
+// console.log(nodeVsElements.childNodes);
+
+const ItemTwo = document.getElementById("item-2");
+
+// console.log(ItemTwo);
+// const itemParent = ItemTwo.parentElement;
+// const itemParent = ItemTwo.parentElement.children;
+
+// console.log(itemParent);
+
+// Sibling
+
+// const nextSibling = ItemTwo.nextElementSibling;
+const previousSibling = ItemTwo.previousElementSibling;
+
+// console.log(nextSibling);
+// console.log(previousSibling);
+
+const somethingSibling = ItemTwo.previousSibling;
+
+// console.log(somethingSibling);
+
