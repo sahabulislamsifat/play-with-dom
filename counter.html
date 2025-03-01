@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Awesome Counter App</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <h1 class="text-center mt-10 font-semibold">
+      Welcome to my Awesome Counter APP
+    </h1>
+    <div class="text-center">
+      <h1 id="count" class="text-3xl my-5 font-bold">0</h1>
+      <button
+        onclick="countPlus()"
+        id="btn-plus"
+        class="bg-green-500 cursor-pointer px-10 text-white text-xl font-bold"
+      >
+        +
+      </button>
+      <button
+        id="btn-minus"
+        class="cursor-pointer bg-red-500 px-10 text-white text-xl font-bold"
+      >
+        -
+      </button>
+    </div>
+    <script src="./js/counter.js"></script>
+  </body>
+</html>
