@@ -110,3 +110,33 @@
 
 // console.log(myLink);
 // console.log(link);
+
+// Creating an element and append || add class name || classList[add(), remove()] || append child vs append || remove() or remove child()
+
+const containerFive = document.querySelector(".container-five");
+
+// console.log(containerFive);
+
+// const p = document.createElement("p");
+const p = document.createElement("p");
+
+// console.log(p);
+p.innerText = "I am created by JS dynamically.";
+
+// containerFive.appendChild(p);
+containerFive.append(p, "Hello there how are you?");
+
+const h1 = document.createElement("h3");
+h1.textContent = "I am h3, and I can inject to HTML through JS";
+
+containerFive.appendChild(h1);
+
+// p.classList.add("common-class");
+
+// p.className = "common-class";
+// p.classList.remove('common-class')
+
+// Remove and removeChild
+// document.getElementById("remove").remove();
+// containerFive.remove()
+// containerFive.removeChild(h1);
