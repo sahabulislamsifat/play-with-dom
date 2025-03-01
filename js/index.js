@@ -57,12 +57,12 @@
 
 // Node Vs Elements
 
-const nodeVsElements = document.querySelector(".container-two");
+// const nodeVsElements = document.querySelector(".container-two");
 
 // console.log(nodeVsElements.children);
 // console.log(nodeVsElements.childNodes);
 
-const ItemTwo = document.getElementById("item-2");
+// const ItemTwo = document.getElementById("item-2");
 
 // console.log(ItemTwo);
 // const itemParent = ItemTwo.parentElement;
@@ -73,12 +73,40 @@ const ItemTwo = document.getElementById("item-2");
 // Sibling
 
 // const nextSibling = ItemTwo.nextElementSibling;
-const previousSibling = ItemTwo.previousElementSibling;
+// const previousSibling = ItemTwo.previousElementSibling;
 
 // console.log(nextSibling);
 // console.log(previousSibling);
 
-const somethingSibling = ItemTwo.previousSibling;
+// const somethingSibling = ItemTwo.previousSibling;
 
 // console.log(somethingSibling);
 
+// innerText || textContent || innerHTML
+// const containerFour = document.querySelector(".container-four");
+
+// console.log(containerFour.innerText);
+// console.log(containerFour.textContent);
+// console.log(containerFour.innerHTML);
+
+// setAttribute() || getAttribute() || removeAttribute()
+// const myButton = document.getElementById("click-btn");
+
+// myButton.setAttribute("class", "btn btn-primary");
+// myButton.setAttribute("class", "btn btn-primary common-class");
+
+// myButton.setAttribute("disabled", true);
+
+// myButton.removeAttribute("disabled");
+
+// console.log(myButton);
+
+// const myLink = document.getElementById("myLink");
+
+// myLink.getAttribute("title");
+
+// const link = myLink.getAttribute("href");
+// const link = myLink.getAttribute("title");
+
+// console.log(myLink);
+// console.log(link);
